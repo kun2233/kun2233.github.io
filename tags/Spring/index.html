@@ -24,7 +24,7 @@
     <link rel="alternative" href="/atom.xml" title="KunJava" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/img/favicon.ico">
   
   
   <link rel="stylesheet" type="text/css" href="/./main.a5fda8.css">
@@ -111,6 +111,8 @@
 				
 					<a class="cnblog" href="#" title="博客园" target="_blank"><i class="icon-cnblog"></i></a>
 				
+					<a class="zhihu" href="#" title="知乎" target="_blank"><i class="icon-zhihu"></i></a>
+				
 			</div>
 		
 			
@@ -173,6 +175,8 @@
 						<a class="jianshu" target="_blank" href="#" title="简书"><i class="icon-jianshu"></i></a>
 			        
 						<a class="cnblog" target="_blank" href="#" title="博客园"><i class="icon-cnblog"></i></a>
+			        
+						<a class="zhihu" target="_blank" href="#" title="知乎"><i class="icon-zhihu"></i></a>
 			        
 				</div>
 			</nav>
@@ -703,6 +707,35 @@
   </div>
 
   
+<script type="text/javascript" src="/plugins/TweenMax/TweenMax.min.js"></script>
+<script type="text/javascript" src="/plugins/TweenMax/HoverImg.js"></script>
+
+<script>
+
+
+  var hoverEffect = {
+    "subNav": ".left-col .social a"
+  }
+
+
+  for (var x in hoverEffect) {
+    // 初始化data-img属性值
+    let $em = document.querySelectorAll(hoverEffect[x]);
+    $em.forEach(($a) => {
+      //console.log($a.href);
+      if (isImageType($a.href)) {
+        $a.setAttribute("data-img", $a.href)
+      }
+    })
+    // 实现悬停元素预览图片效果
+    let $a = document.querySelectorAll(hoverEffect[x] + "[data-img]");
+    $a.forEach(($em) => {
+      new HoverImgFx1($em)
+    })
+  }
+
+</script>
+
   
 <script type="text/javascript" src="/plugins/activate-power-mode/activate-power-mode.js"></script>
 <script>
