@@ -6,17 +6,40 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Tag: SSM | KunJava</title>
+  <title>SSM电商项目02 | KunJava</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="KunJava">
-<meta property="og:url" content="http://example.com/tags/SSM/index.html">
+  <meta name="description" content="二 电商网站SSM项目开发流程笔记1.商业开发的流程 需求分析（前台和后台）：需要做哪些功能 前台又分为单纯要展示的那些功能-需求分析-展示，以及会提交数据到服务端的哪些功能-需求分析-交互。  表结构设计（围绕着功能需求） 表与表之间的关系，SQL语句，表和页面功能的一一对应">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SSM电商项目02">
+<meta property="og:url" content="http://example.com/2020/08/12/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE02/index.html">
 <meta property="og:site_name" content="KunJava">
+<meta property="og:description" content="二 电商网站SSM项目开发流程笔记1.商业开发的流程 需求分析（前台和后台）：需要做哪些功能 前台又分为单纯要展示的那些功能-需求分析-展示，以及会提交数据到服务端的哪些功能-需求分析-交互。  表结构设计（围绕着功能需求） 表与表之间的关系，SQL语句，表和页面功能的一一对应">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221860.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221845.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120223353.gif#pic_center">
+<meta property="og:image" content="c:/Users/hk199/Desktop/Java学习总结/SSM电商项目/servlet原理1.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120222132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221780.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221647.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221770.png#pic_center">
+<meta property="og:image" content="https://stepimagewm.how2j.cn/1567.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200924120221865.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="article:published_time" content="2020-08-12T05:12:12.000Z">
+<meta property="article:modified_time" content="2020-09-25T01:11:52.535Z">
 <meta property="article:author" content="Kun2233">
+<meta property="article:tag" content="SSM">
+<meta property="article:tag" content="Spring">
+<meta property="article:tag" content="SpringMVC">
+<meta property="article:tag" content="Mybatis">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200924120221851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center">
   
     <link rel="alternative" href="/atom.xml" title="KunJava" type="application/atom+xml">
   
@@ -202,437 +225,237 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-电商网站的SSM项目02" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/09/23/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE08/" class="archive-article-date">
-        <time datetime="2020-09-23T04:07:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-23</time>
-</a>
-
-        </div>
-    	 
+      <header class="article-header">
   
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/09/23/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE08/" target="_blank">SSM电商项目08</a>
   
+    <h1 class="article-title" itemprop="name">
+      SSM电商项目02
     </h1>
   
 
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/09/19/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE07/" class="archive-article-date">
-        <time datetime="2020-09-19T06:27:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-19</time>
-</a>
-
-        </div>
-    	 
   
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/09/19/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE07/" target="_blank">SSM电商项目07</a>
-  
-    </h1>
-  
+        
+        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+        </span>
 
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/09/16/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE06/" class="archive-article-date">
-        <time datetime="2020-09-16T03:22:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-16</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/09/16/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE06/" target="_blank">SSM电商项目06</a>
-  
-    </h1>
-  
-
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/09/05/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE05/" class="archive-article-date">
-        <time datetime="2020-09-05T01:20:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-09-05</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/09/05/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE05/" target="_blank">SSM电商项目05</a>
-  
-    </h1>
-  
-
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/08/30/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE04/" class="archive-article-date">
-        <time datetime="2020-08-30T11:30:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-30</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/08/30/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE04/" target="_blank">SSM电商项目04</a>
-  
-    </h1>
-  
-
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/08/20/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE03/" class="archive-article-date">
-        <time datetime="2020-08-20T14:12:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-20</time>
-</a>
-
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/08/20/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE03/" target="_blank">SSM电商项目03</a>
-  
-    </h1>
-  
-
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
 <a href="/2020/08/12/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE02/" class="archive-article-date">
         <time datetime="2020-08-12T05:12:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-12</time>
 </a>
 
+  
+  
+    
+<div style="margin-top:10px;">
+  <span class="post-time">
+    <span class="post-meta-item-icon">
+      <!-- fonts.scss -->
+      <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
+      <i class="icon-statistics"></i>
+      <span class="post-meta-item-text"> 字数统计:</span>
+      <span class="post-count">2k字</span>
+    </span>
+  </span>
+
+  <span class="post-time">
+    &nbsp; | &nbsp;
+    <span class="post-meta-item-icon">
+      <i class="icon-book icon"></i>
+      <span class="post-meta-item-text"> 阅读时长≈</span>
+      <span class="post-count">8分</span>
+    </span>
+  </span>
+</div>
+
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <h1 id="二-电商网站SSM项目开发流程笔记"><a href="#二-电商网站SSM项目开发流程笔记" class="headerlink" title="二 电商网站SSM项目开发流程笔记"></a>二 电商网站SSM项目开发流程笔记</h1><h2 id="1-商业开发的流程"><a href="#1-商业开发的流程" class="headerlink" title="1.商业开发的流程"></a>1.商业开发的流程</h2><ol>
+<li><p><strong>需求分析</strong>（前台和后台）：需要做哪些功能</p>
+<p>前台又分为单纯要展示的那些功能-<strong>需求分析-展示</strong>，以及会提交数据到服务端的哪些功能-<strong>需求分析-交互</strong>。</p>
+</li>
+<li><p><strong>表结构设计</strong>（围绕着功能需求）</p>
+<p>表与表之间的关系，SQL语句，表和页面功能的一一对应</p>
+<a id="more"></a>
+</li>
+<li><p><strong>界面原型</strong>（与客户沟通）</p>
+<p>低成本，高效率，需求的一致性，前台原型与后台原型</p>
+</li>
+<li><p><strong>后台分类管理</strong></p>
+<p>查询，分页，增删改查</p>
+</li>
+<li><p><strong>项目重构</strong></p>
+<p>ssm存在的一些问题，改进，提高效率</p>
+</li>
+<li><p><strong>后台其他管理</strong></p>
+</li>
+<li><p><strong>前台首页</strong></p>
+</li>
+<li><p><strong>前台无需登录</strong></p>
+</li>
+<li><p><strong>前台需要登录</strong></p>
+</li>
+<li><p><strong>总结</strong></p>
+</li>
+</ol>
+<h2 id="2-需求分析"><a href="#2-需求分析" class="headerlink" title="2.需求分析"></a>2.需求分析</h2><h3 id="2-1-前台展示"><a href="#2-1-前台展示" class="headerlink" title="2.1 前台展示"></a>2.1 前台展示</h3><p><strong>在前端页面上显示数据库中的数据</strong>，如首页，产品页，购物车，分类页面等等。</p>
+<p>前端页面如何组织显示，页面布局，css样式设置，Javascript交互等</p>
+<h3 id="2-2-前台交互"><a href="#2-2-前台交互" class="headerlink" title="2.2 前台交互"></a>2.2 前台交互</h3><p>通过POST,GET等http协议，与服务端进行同步或者异步数据交互。 比如购买，购物车，生成订单，登录等等功能。</p>
+<h3 id="2-3-后台"><a href="#2-3-后台" class="headerlink" title="2.3 后台"></a>2.3 后台</h3><p>对支撑整站需要用到的数据，进行管理维护。 比如分类管理，分类属性管理， 产品管理，产品图片管理，用户管理，订单管理等等。</p>
+<h2 id="3-表结构设计"><a href="#3-表结构设计" class="headerlink" title="3.表结构设计"></a>3.表结构设计</h2><h4 id="3-1-表与表的关系"><a href="#3-1-表与表的关系" class="headerlink" title="3.1 表与表的关系"></a>3.1 表与表的关系</h4><p><img src="https://img-blog.csdnimg.cn/20200924120221851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="表关系图"></p>
+<p>表与表之间的关系，基本上是3种<br><strong>一对一</strong><br><strong>一对多</strong><br><strong>多对一</strong></p>
+<p>正确的分析表与表之间的关系的方法是这样：<br><strong>一个</strong>分类对应 <strong>多个</strong> 产品</p>
+<p><strong>一个</strong>产品对应 <strong>一个</strong> 分类</p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221835.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221860.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="表一对多"></p>
+<h3 id="3-2-Mysql数据库"><a href="#3-2-Mysql数据库" class="headerlink" title="3.2 Mysql数据库"></a>3.2 Mysql数据库</h3><p>1.<strong>数据库（Database）</strong>是存储和管理数据的仓库。<br>2.<strong>SQL（结构化查询语言）</strong></p>
+<p>3.MySQL是一个DBMS，DBMS实际上就是一个<strong>数据库管理系统</strong>。一般的中小型网站都选择MySQL作为网站的数据库，因为它可以使用SQL语言进行操作，而且它的速度快，最重要的是它免费。</p>
+<p>4.（Linux系统+xfe终端）</p>
+<p>安装MySQL安装服务端<code>sudo apt-get install mysql-server</code></p>
+<p>安装客户端：sudo apt-get install mysql-client验证是否安装并启动成功：<code>sudo netstat -tap | grep mysql</code><br>5.打开MySQL启动MySQL服务：sudo service mysql start</p>
+<p>登陆 mysql  -u root</p>
+<p>6.查看数据库show databases;</p>
+<p>7.连接数据库use 数据库名</p>
+<p>8.查看表show tables;</p>
+<p>9.退出quit或exit</p>
+<h3 id="3-3建表SQL语句"><a href="#3-3建表SQL语句" class="headerlink" title="3.3建表SQL语句"></a>3.3建表SQL语句</h3><p><img src="https://img-blog.csdnimg.cn/20200924120221938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br></pre></td><td class="code"><pre><span class="line">DROP DATABASE IF EXISTS tmall_ssm;</span><br><span class="line">CREATE DATABASE tmall_ssm DEFAULT CHARACTER SET utf8;</span><br><span class="line">USE tmall_ssm;</span><br><span class="line"></span><br><span class="line">CREATE TABLE user (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  name varchar(255) DEFAULT NULL,</span><br><span class="line">  password varchar(255) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;   #用户表</span><br><span class="line"></span><br><span class="line">CREATE TABLE category (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  name varchar(255) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8;  #分类表</span><br><span class="line"></span><br><span class="line">CREATE TABLE property (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  cid int(11) DEFAULT NULL,             #本表的外键cid，指向分类表的id字段</span><br><span class="line">  name varchar(255) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_property_category FOREIGN KEY (cid) REFERENCES category (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;   #属性表，有外键约束</span><br><span class="line"></span><br><span class="line">CREATE TABLE product (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  name varchar(255) DEFAULT NULL,      #产品名称</span><br><span class="line">  subTitle varchar(255) DEFAULT NULL,  #小标题</span><br><span class="line">  originalPrice float DEFAULT NULL,    #原始价格</span><br><span class="line">  promotePrice float DEFAULT NULL,     #优惠价格</span><br><span class="line">  stock int(11) DEFAULT NULL,          #库存</span><br><span class="line">  cid int(11) DEFAULT NULL,            #外键cid，指向分类表的id字段</span><br><span class="line">  createDate datetime DEFAULT NULL,    #createDate: 创建日期</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_product_category FOREIGN KEY (cid) REFERENCES category (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8; #产品表</span><br><span class="line"></span><br><span class="line">CREATE TABLE propertyvalue (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  pid int(11) DEFAULT NULL,  #外键pid，指向产品表的id字段</span><br><span class="line">  ptid int(11) DEFAULT NULL, #外键ptid，指向属性表的id字段</span><br><span class="line">  value varchar(255) DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_propertyvalue_property FOREIGN KEY (ptid) REFERENCES property (id),</span><br><span class="line">  CONSTRAINT fk_propertyvalue_product FOREIGN KEY (pid) REFERENCES product (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8;  #属性值表</span><br><span class="line"></span><br><span class="line">CREATE TABLE productimage (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  pid int(11) DEFAULT NULL,       #本表的外键pid，指向产品表的id字段</span><br><span class="line">  type varchar(255) DEFAULT NULL, #type表示类型，产品图片分单个图片和详情图片两种</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_productimage_product FOREIGN KEY (pid) REFERENCES product (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB DEFAULT CHARSET&#x3D;utf8;  #产品图片表</span><br><span class="line"></span><br><span class="line">CREATE TABLE review (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  content varchar(4000) DEFAULT NULL,</span><br><span class="line">  uid int(11) DEFAULT NULL, #外键uid，指向用户表的id字段</span><br><span class="line">  pid int(11) DEFAULT NULL, #外键pid，指向产品表的id字段</span><br><span class="line">  createDate datetime DEFAULT NULL,</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_review_product FOREIGN KEY (pid) REFERENCES product (id),</span><br><span class="line">    CONSTRAINT fk_review_user FOREIGN KEY (uid) REFERENCES user (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8; #评价表</span><br><span class="line"></span><br><span class="line">CREATE TABLE order_ (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  orderCode varchar(255) DEFAULT NULL,  #订单号</span><br><span class="line">  address varchar(255) DEFAULT NULL,    #收货地址</span><br><span class="line">  post varchar(255) DEFAULT NULL,       #邮编</span><br><span class="line">  receiver varchar(255) DEFAULT NULL,   #收货人信息</span><br><span class="line">  mobile varchar(255) DEFAULT NULL,     #手机号码</span><br><span class="line">  userMessage varchar(255) DEFAULT NULL,#用户备注信息</span><br><span class="line">  createDate datetime DEFAULT NULL,     #订单创建日期</span><br><span class="line">  payDate datetime DEFAULT NULL,        #支付日期</span><br><span class="line">  deliveryDate datetime DEFAULT NULL,   #发货日期</span><br><span class="line">  confirmDate datetime DEFAULT NULL,    #确认收货日期</span><br><span class="line">  uid int(11) DEFAULT NULL,             #外键uid，指向用户表id字段</span><br><span class="line">  status varchar(255) DEFAULT NULL,     #订单状态</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_order_user FOREIGN KEY (uid) REFERENCES user (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8; #订单表</span><br><span class="line"></span><br><span class="line">CREATE TABLE orderitem (</span><br><span class="line">  id int(11) NOT NULL AUTO_INCREMENT,</span><br><span class="line">  pid int(11) DEFAULT NULL,    #外键pid，指向产品表id字段</span><br><span class="line">  oid int(11) DEFAULT NULL,    #外键oid，指向订单表id字段</span><br><span class="line">  uid int(11) DEFAULT NULL,    #外键uid，指向用户表id字段</span><br><span class="line">  number int(11) DEFAULT NULL, #number字段表示购买数量</span><br><span class="line">  PRIMARY KEY (id),</span><br><span class="line">  CONSTRAINT fk_orderitem_user FOREIGN KEY (uid) REFERENCES user (id),</span><br><span class="line">  CONSTRAINT fk_orderitem_product FOREIGN KEY (pid) REFERENCES product (id),</span><br><span class="line">  CONSTRAINT fk_orderitem_order FOREIGN KEY (oid) REFERENCES order_ (id)</span><br><span class="line">) ENGINE&#x3D;InnoDB  DEFAULT CHARSET&#x3D;utf8; #订单项表</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="4-原型-后端"><a href="#4-原型-后端" class="headerlink" title="4.原型-后端"></a>4.原型-后端</h2><p>CRUD维护管理页面</p>
+<p>前端需要的数据，都要先通过后台的功能维护在数据库中，才可以拿到。</p>
+<p>所以，<strong>先</strong>进行<strong>后台</strong>功能的开发，然<strong>后</strong>再是<strong>前台</strong>功能的开发。</p>
+<p>首先使用SSM模式开发出第一个<strong>分类管理模块</strong>。然后分析弊端，对其进行<strong>项目重构</strong>，重构使得框架更加紧凑，后续开发更加便利和高效率。</p>
+<h3 id="4-1静态资源"><a href="#4-1静态资源" class="headerlink" title="4.1静态资源"></a>4.1静态资源</h3><h4 id="4-1-1在webapp-img-site目录存放静态图片"><a href="#4-1-1在webapp-img-site目录存放静态图片" class="headerlink" title="4.1.1在webapp/img/site目录存放静态图片"></a>4.1.1在<strong>webapp/img/site目录</strong>存放静态图片</h4><h4 id="4-1-2在webapp-css目录里有3个子目录"><a href="#4-1-2在webapp-css目录里有3个子目录" class="headerlink" title="4.1.2在webapp/css目录里有3个子目录"></a>4.1.2在webapp/css目录里有3个子目录</h4><ul>
+<li><p><strong>back</strong><br>这个目录里有一个<strong>style.css</strong>,这是<strong>后台界面</strong>用到的<strong>样式</strong></p>
+</li>
+<li><p><strong>bootstrap</strong></p>
+<p>存放的是bootstrap的<strong>css样式文</strong></p>
+</li>
+<li><p><strong>fore</strong><br>这个目录里<strong>也</strong>有一个<strong>style.css</strong>,这是<strong>前台界面</strong>用到的**样式</p>
+</li>
+</ul>
+<h4 id="4-1-3在webapp-js目录里有2个子目录"><a href="#4-1-3在webapp-js目录里有2个子目录" class="headerlink" title="4.1.3在webapp/js目录里有2个子目录**"></a>4.1.3在<strong>webapp/js</strong>目录里有2个子目录**</h4><ul>
+<li><p><strong>bootstrap</strong></p>
+<p>bootstrap用到的js文件</p>
+</li>
+<li><p><strong>jquery</strong></p>
+<p>jquery用到的js文件</p>
+</li>
+</ul>
+<h4 id="4-1-4除了图片资源外，还用到了各种第三方的jar包"><a href="#4-1-4除了图片资源外，还用到了各种第三方的jar包" class="headerlink" title="4.1.4除了图片资源外，还用到了各种第三方的jar包"></a>4.1.4除了图片资源外，还用到了各种第三方的jar包</h4><h3 id="4-2-JSP包含关系"><a href="#4-2-JSP包含关系" class="headerlink" title="4.2 JSP包含关系"></a>4.2 JSP包含关系</h3><h4 id="4-2-1-Servlet"><a href="#4-2-1-Servlet" class="headerlink" title="4.2.1 Servlet"></a>4.2.1 Servlet</h4><p>Servlet它是运行在<strong>服务器</strong>上的一个Java小程序，它可以<strong>接收</strong>客户端发送过来的<strong>请求</strong>并<strong>响应</strong>数据给客户端。</p>
+<p>Tomcat是一个Web服务器</p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221845.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="Image"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120223353.gif#pic_center"></p>
+<p><strong>如何去实现一个servlet程序呢？</strong></p>
+<p>1,编写一个类去实现servlet接口。</p>
+<p>2,实现service方法，处理请求并响应数据。</p>
+<p>3,到web.xml中去配置servlet程序的访问地址。</p>
+<p><img src="C:\Users\hk199\Desktop\Java学习总结\SSM电商项目\servlet原理1.png" alt="image-20200812125042627"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120222132.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="image-20200812125320609"></p>
+<h4 id="4-2-2-JSP"><a href="#4-2-2-JSP" class="headerlink" title="4.2.2  JSP"></a>4.2.2  JSP</h4><p><strong>在html中写或运行java代码</strong>，因为JSP被转译成了<strong>Servlet。</strong></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221780.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="执行过程"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="页面元素"></p>
+<p><strong>webapp/admin/各种Jsp</strong></p>
+<h4 id="4-2-3-页面跳转"><a href="#4-2-3-页面跳转" class="headerlink" title="4.2.3 页面跳转"></a>4.2.3 页面跳转</h4><p>开发web应用时，<strong>页面跳转</strong>会经常遇到。</p>
+<p>比如登录成功或是失败后，分别会跳转到不同的页面。</p>
+<p>跳转的方式有两种，<strong>服务端跳转</strong>和<strong>客户端跳转</strong>。</p>
+<p>首先在web目录下准备两个页面 success.html,fail.html<br>分别用于显示登录成功 或者登录失败</p>
+<p>如果<u>登录成功了</u>，就<strong>服务端跳转</strong>到success.html</p>
+<p>如果<u>登录失败了</u>，就<strong>客户端跳转</strong>到fail.html</p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221647.png#pic_center" alt="首先准备两个页面 success.html fail.html"></p>
+<h5 id="01-在Servlet中进行服务端跳转的方式"><a href="#01-在Servlet中进行服务端跳转的方式" class="headerlink" title="01 在Servlet中进行服务端跳转的方式"></a>01 在<strong>Servlet</strong>中进行服务端跳转的方式</h5><p>在service(HttpServletRequest request, HttpServletResponse response)方法中</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">request.getRequestDispatcher(<span class="string">&quot;success.html&quot;</span>).forward(request, response);</span><br></pre></td></tr></table></figure>
+
+<p>服务端跳转后，浏览器的地址依然是/login 路径，并不会变成success.html</p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221770.png#pic_center" alt="服务端跳转"></p>
+<h5 id="02-在Servlet中进行客户端跳转的方式"><a href="#02-在Servlet中进行客户端跳转的方式" class="headerlink" title="02 在Servlet中进行客户端跳转的方式"></a>02 在Servlet中进行客户端跳转的方式</h5><p>在service(HttpServletRequest request, HttpServletResponse response)方法中</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">response.sendRedirect(<span class="string">&quot;fail.html&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>跳转后浏览器地址发生了变化。</p>
+<p><img src="https://stepimagewm.how2j.cn/1567.png" alt="客户端跳转"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200924120221865.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzMDU5MzQz,size_16,color_FFFFFF,t_70#pic_center" alt="服务端跳转与客户端跳转图示"></p>
+<h5 id="03-在jsp中进行服务端跳转的方式"><a href="#03-在jsp中进行服务端跳转的方式" class="headerlink" title="03 在jsp中进行服务端跳转的方式"></a>03 在<strong>jsp</strong>中进行服务端跳转的方式</h5><figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">request.getRequestDispatcher(<span class="string">&quot;hello.jsp&quot;</span>).forward(request, response);</span><br></pre></td></tr></table></figure>
+
+<p>简化：</p>
+<figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;jsp:forward page=<span class="string">&quot;hello.jsp&quot;</span>/&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<h5 id="04-在jsp中进行客户端跳转的方式"><a href="#04-在jsp中进行客户端跳转的方式" class="headerlink" title="04  在jsp中进行客户端跳转的方式"></a>04  在jsp中进行客户端跳转的方式</h5><figure class="highlight jsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">response.sendRedirect(<span class="string">&quot;hello.jsp&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+
+    
+
+    
+    <div class="page-reward">
+      <a href="javascript:void(0);" class="page-reward-btn tooltip-top" target="_self">
+        <div class="tooltip tooltip-east">
+          <span class="tooltip-item">
+            赏
+          </span>
+          <span class="tooltip-content">
+            <span class="tooltip-text">
+              <span class="tooltip-inner">
+                <p class="reward-p"><i class="icon icon-quo-left"></i>一起进步，奥里给！<i
+                    class="icon icon-quo-right"></i></p>
+                <div class="reward-box">
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/img/alipay.jpg">
+                    <span class="reward-type">支付宝</span>
+                  </div>
+                  
+                  
+                  <div class="reward-box-item">
+                    <img class="reward-img" src="/img/weixin.png">
+                    <span class="reward-type">微信</span>
+                  </div>
+                  
+                </div>
+              </span>
+            </span>
+          </span>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/08/12/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE02/" target="_blank">SSM电商项目02</a>
-  
-    </h1>
-  
+      </a>
+    </div>
+    
 
-
-        <div class="article-info info-on-right">
+    
+    <div class="declare"> 
+      <ul class="post-copyright">
+        <li>
+          <strong>本文作者：</strong>
+          Kun2233
+        </li>
+        <li>
+          <strong>本文链接：</strong>
+          <a href="http://example.com/2020/08/12/电商网站的SSM项目02/" title="SSM电商项目02" target="_blank">http://example.com/2020/08/12/电商网站的SSM项目02/</a>
+        </li>
+        
+        <li>
+          <strong>版权声明： </strong>
           
+          本博客所有文章除特别声明外，均采用 <a href="https://github.com/JoeyBling/hexo-theme-yilia-plus/blob/master/LICENSE" rel="external nofollow" target="_blank">MIT</a> 许可协议。转载请注明出处！
+        </li>
+        
+      </ul>
+    </div>
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -656,7 +479,7 @@
 		</ul>
 	</div>
 
-          
+    
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -681,95 +504,141 @@
 	</div>
 
 
+    
+
+    
+    
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <!-- <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a> -->
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/08/12/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE02/" alt="微信分享二维码"> -->
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+
+    
+    <div class="clearfix"></div>
+  </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/08/06/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE01/" class="archive-article-date">
-        <time datetime="2020-08-05T18:09:55.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-08-06</time>
-</a>
 
+
+<nav id="article-nav">
+  
+    <a href="/2020/08/20/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE03/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          SSM电商项目03
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/08/06/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE01/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">SSM电商项目01</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-	
-	  <a class="archive-article-title" href="/2020/08/06/%E7%94%B5%E5%95%86%E7%BD%91%E7%AB%99%E7%9A%84SSM%E9%A1%B9%E7%9B%AE01/" target="_blank">SSM电商项目01</a>
-  
-    </h1>
-  
+        
+        
+    </div>
+</aside>
 
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM//" class="article-tag-list-link color4">SSM</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring//" class="article-tag-list-link color2">Spring</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC//" class="article-tag-list-link color5">SpringMVC</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/SSM/Spring/SpringMVC/Mybatis//" class="article-tag-list-link color3">Mybatis</a>
-        		</li>
-      		
-		</ul>
-	</div>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+<section id="comments" class="comments">
+  <style>
+    .comments{margin:30px;padding:10px;background:#fff}
+    @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+  </style>
+  <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "w6oVBUcWnsMER4Mif5rnb4Gn-gzGzoHsz",
+            app_key: "KM759GJB5guokTNUXB6cH51A",
+            placeholder: "Just go go",
+            avatar:"wavatar"
+        });
+    }
+</script>
+  </section>
+
+
+
+
+
+
+
+
+
+
 
 
           </div>
@@ -809,9 +678,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,
